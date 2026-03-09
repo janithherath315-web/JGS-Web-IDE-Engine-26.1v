@@ -37,7 +37,7 @@ To run **JGS Web IDE Engine**, your computer must meet the following requirement
 
 ---
 # Step 1
-Download IDE : https://mega.nz/file/sBcHhCRZ#gXIanvU8bO8qZdEZ9txBzKBzpJA3Xa5NN6lBDYItCzs
+Download IDE 90MB : https://mega.nz/file/sBcHhCRZ#gXIanvU8bO8qZdEZ9txBzKBzpJA3Xa5NN6lBDYItCzs
 # Step 2
 Download Java SDK 
 
