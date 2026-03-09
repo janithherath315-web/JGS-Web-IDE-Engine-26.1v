@@ -39,7 +39,7 @@ To run **JGS Web IDE Engine**, your computer must meet the following requirement
 # Step 1
 Download IDE 90MB : https://sinhaai.wuaze.com/app
 # Step 2
-Download Java SDK 
+Download Java SDK 200MB : https://mega.nz/file/sBcHhCRZ#gXIanvU8bO8qZdEZ9txBzKBzpJA3Xa5NN6lBDYItCzs
 
 
 # 📂 Project Folder Structure
@@ -51,7 +51,7 @@ JGS_Web_IDE/
 │
 ├── JGS_Launcher.bat        <-- Double click this to Auto-Check & Run
 ├── src/                    <-- Java Source Code
-├── lib/                    <-- JavaFX SDK .jar files
+├── jdk/                    <-- JavaFX SDK .jar files (Can You Download File)
 ├── Data/                   <-- YOUR WEB APP GOES HERE
 │   ├── index.html
 │   ├── style.css
@@ -63,7 +63,7 @@ JGS_Web_IDE/
 │
 └── Output/                 <-- Generated .EXE files appear here
 ```
-
+# You just need to download the jdk file separately and put it in your IDE folder. That's enough. All the other files are in the IDE folder.
 ---
 
 # 🚀 How to Use the IDE
