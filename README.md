@@ -35,7 +35,7 @@
 ## 🛠 User Guide / පරිශීලක අත්පොත
 
 # Step 1
-Download IDE 90MB : https://sinhaai.wuaze.com/app
+Download IDE 300MB : https://sinhaai.wuaze.com/app
 
 ### 1. Project Organization (ව්‍යාපෘති කළමනාකරණය)
 - Place all your HTML, CSS, JS, and image files inside the `Data/` folder.
