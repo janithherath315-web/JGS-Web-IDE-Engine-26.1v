@@ -1,73 +1,102 @@
-JGS Web IDE Engine 26.1v
-A Professional Desktop Software Development Tool
-Designed & Developed by JGS Lanka Co. | H. M Janitha Athma Herath
+# JGS Web IDE Engine 26.1v — Professional Documentation
 
-📌 1. Introduction
-JGS Web IDE Engine is a professional framework designed to run, preview, and build modern Web Applications (HTML, CSS, JavaScript) as native Windows Desktop Software (.EXE). It features a built-in embedded browser, live preview, developer console, and a native .EXE packaging engine.
+---
 
-⚙️ 2. System Requirements
-To run the IDE Engine efficiently, the host machine must meet the following requirements:
+## 🌎 Overview / දළ විශ්ලේෂණය
 
-Operating System: Windows 10 or Windows 11 (64-bit)
+### [English]
+**JGS Web IDE Engine 26.1v** is a high-performance Integrated Development Environment (IDE) designed to transform modern web applications (HTML5, CSS3, JavaScript) into lightweight, standalone native Windows Desktop applications (`.exe`). Powered by the **Neutralino.js** engine, it bypasses the heavy overhead of traditional frameworks like Electron, offering a lightning-fast experience with a minimal footprint.
 
-Java Environment: JDK 17 or higher (Essential for the jpackage build tool).
+### [සිංහල]
+**JGS Web IDE Engine 26.1v** යනු නවීන වෙබ් තාක්ෂණයන් (HTML5, CSS3, JavaScript) භාවිතයෙන් නිපදවන මෘදුකාංග, ඉතා සැහැල්ලු සහ ස්වාධීන වින්ඩෝස් පද්ධතිවල ධාවනය වන මෘදුකාංග (`.exe`) බවට පත් කරන උසස් මට්ටමේ IDE එකකි. **Neutralino.js** තාක්ෂණයෙන් ක්‍රියාත්මක වන නිසා, අනවශ්‍ය බරකින් තොරව ඉතා වේගවත් සහ වෘත්තීය මට්ටමේ ප්‍රතිඵලයක් මෙයින් ලබාගත හැකිය.
 
-RAM: 4GB Minimum (8GB Recommended for large builds).
+---
 
-Storage: 500MB Free Space.
+## 🚀 Key Features / ප්‍රධාන විශේෂාංග
 
-📂 3. Folder Structure
-Ensure your project directory looks like this before launching:
+- **Native Neutralino Engine:** 100% Chromium-compatible rendering for complex web apps (3D, Canvas, LocalStorage).
+- **90% Size Optimization:** Custom Slim JRE (50MB) reduces the IDE's total footprint by over 550MB compared to standard JDK.
+- **Persistent Data:** Static port mapping ensures LocalStorage, Sessions, and Cookies survive application restarts.
+- **Professional Branding:** Built-in settings for App Versioning, Company Name, Developer ID, and Custom Copyright.
+- **Instant Preview:** Launches a native debug window (Neutralino Run) for real-time edge-case testing.
+- **Zero Runtime Requirement:** Built applications run on any Windows PC without requiring Java or Node.js to be installed.
+- **Zero Runtime Requirement:** Built applications run on any Windows PC without requiring Java or Node.js to be installed.
 
-Plaintext
-JGS_Web_IDE/
-│
-├── JGS_Launcher.bat        <-- Double click this to Auto-Check & Run
-├── src/                    <-- Contains the Java Source Code and file
-├── lib/                    <-- Contains JavaFX SDK .jar files
-├── Data/                   <-- YOUR WEB APP GOES HERE
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── icon/
-│   ├── app.icon            <-- Custom Application Icon
-│   └── splash.png          <-- Splash Screen Image (800x450px)
-└── Output/                 <-- Generated .EXE files will appear here
-🚀 4. How to Use the IDE
-Launch the Software: Double-click JGS_Launcher.bat. The engine will automatically verify system requirements, repair missing directories, and launch the application.
+---
 
-Add Your Code: Navigate to the Data/ folder. Write or paste your HTML, CSS, and JS files here. index.html is the mandatory entry point.
+- **Native Neutralino Engine:** Chromium මත පදනම් වූ නිසා 3D, Canvas වැනි ඕනෑම දියුණු වෙබ් තාක්ෂණයක් සමඟ 100% ගැළපේ.
+- **90% Size Optimization:** 630MB JDK එක වෙනුවට 50MB Slim JRE එකක් භාවිතා කර project එකේ විශාලත්වය 90% කින් අඩු කර ඇත.
+- **Persistent Data:** සෑම ඇප් එකකටම ස්ථිර Port එකක් ලබා දෙන නිසා දත්ත මැකී නොයයි (Login, Sessions, LocalStorage සුරක්ෂිතයි).
+- **Professional Branding:** ඇප් එකේ නම, Version එක, සමාගම සහ Copyright විස්තර ඔබේ කැමැත්ත පරිදි වෙනස් කළ හැකිය.
+- **Instant Preview:** "Run Preview" මගින් සැබෑ ඇන්ජිම (Native Engine) තුළම ඔබේ නිර්මාණය පරීක්ෂා කළ හැකිය.
 
-Live Preview: Inside the IDE, open the Live Preview tab and click ▶ Run Preview to see your changes in real-time.
+---
 
-Customize Settings: Go to the Settings tab. Here you can change:
+## 🛠 User Guide / පරිශීලක අත්පොත
 
-Application Name
+### 1. Project Organization (ව්‍යාපෘති කළමනාකරණය)
+- Place all your HTML, CSS, JS, and image files inside the `Data/` folder.
+- Your main entry point must be named `index.html`.
+- ඔබේ සියලුම වෙබ් ෆයිල් `Data/` ෆෝල්ඩරය තුළ තබන්න. ප්‍රධාන පිටුව `index.html` ලෙස නම් කළ යුතුය.
 
-Window Dimensions (Width/Height)
+### 2. Configuration (සැකසුම්)
+- Use the **Settings** tab to define:
+    - **Window Size:** Default width/height.
+    - **Metadata:** Version, Company, and Developer info.
+- **Settings** Tab එක හරහා ඇප් එකේ නම, Version එක, icon එක සහ window එකේ ප්‍රමාණය සකසා ගන්න.
 
-Theme (Premium Dark / Light)
+#### 🎨 App Branding (අයිකන් සහ නාමය)
+- **App Name:** Your software name.
+- **Window Title:** The title shown in the top bar.
+- **App Icon (Important):** 
+  - For the **Window Icon**, provide a `.png` file.
+  - For the **EXE Explorer Icon (Professional look)**, provide a `.ico` file.
+  - **Window Icon:** සඳහා `.png` ගොනුවක් ලබා දෙන්න.
+  - **EXE Explorer Icon:** (පරිගණකයේ ෆයිල් එකක් ලෙස පෙන්වන අයිකනය) සඳහා `.ico` ගොනුවක් ලබා දෙන්න.🎯
 
-Fullscreen & Resize permissions
+### 3. Running & Testing (ධාවනය සහ පරීක්ෂා කිරීම)
+- Click **"▶ Run Preview"** in the toolbar to see exactly how your app looks in native mode.
+- **"Run Preview"** බටන් එක එබූ විට එය වෙනම Native Window එකකින් ඔබේ නිර්මාණය පෙන්වනු ඇත.
 
-🛠️ 5. Building the .EXE Application
-Once your web app is completely tested and ready to be converted into Desktop Software:
+### 4. Advanced Support (වැඩිදුර සහාය)
 
-Ensure you have added your custom app.icon and splash.png to the icon/ folder.
+#### SQLite Database
+- The IDE now bundles the **Neutralino SQLite Extension**. 
+- To use it, use `Neutralino.extensions.dispatch('js.neutralino.sqlite', { action: 'open', database: 'my.db' })`.
+- SQLite සහාය දැන් ඇතුළත් කර ඇත. `js.neutralino.sqlite` extension එක හරහා දත්ත ගබඩා හැසිරවිය හැකිය.
 
-Navigate to the Build Panel tab inside the IDE.
+#### React / Vue / Angular
+- **Compatibility:** Use static builds (e.g., `npm run build`).
+- **Important (React):** Use **`HashRouter`** instead of `BrowserRouter` to ensure navigation works correctly in a file-based native environment.
+- React භාවිතා කරන්නේ නම්, `BrowserRouter` වෙනුවට **`HashRouter`** භාවිතා කිරීමට වග බලා ගන්න. එවිට පිටු මාරු කිරීමේදී ගැටලු ඇති නොවේ.
 
-Click the ⚙ BUILD .EXE NOW button.
+### 5. Final Build (අවසන් මෘදුකාංගය සෑදීම)
+- Go to the **Build Panel** and click **"CONFIGURE & BUILD NATIVE APP"**.
+- The IDE will scaffold a project and create a standalone bundle in the `Output/` directory.
+- **Build Panel** එකට ගොස් **"CONFIGURE & BUILD NATIVE APP"** බටන් එක ඔබන්න. ඉන්පසු `Output/` ෆෝල්ඩරය තුළ ඔබේ සැබෑ මෘදුකාංගය සැකසෙනු ඇත.
 
-The system will invoke native compilers, embed the Java Runtime, attach your icons, and generate a standalone Windows executable.
+---
 
-Wait for the Success notification. Your final software will be located in the Output/ folder.
+## 💻 System Specifications / තාක්ෂණික පිරිවිතර
 
-📞 6. Support & Contact
-Company: JGS Lanka Co.
+| Component | Specification |
+| :--- | :--- |
+| **Backend Engine** | Neutralino.js (Native binary) |
+| **Frontend Renderer** | Windows WebView2 (Chromium-based) |
+| **Runtime Environment** | Optimized Slim JRE 17 (JavaFX 17) |
+| **Metadata Support** | Full Versioning & Company Branding |
+| **Auto Cleanup** | Temp file removal on exit |
 
-Website: Janith Graphic Studio (Search on Google)
+---
 
-Bug Reports (WhatsApp): +94702001859
+## 📞 Support & Credits / සහාය සහ ස්තුතිය
 
-Updates: Click the Check Update button in the IDE's About Section.
+**Created & Designed By:**
+**JGS Lanka Co. | H. M Janitha Athma Herath**
+
+- **WhatsApp/Contact:** +94702001859
+- **Website:** Janith Graphic Studio
+- **Update Portal:** [JGS Software Solution](https://jgslankasoftwaresolution.wuaze.com/)
+
+---
+*(C) 2026 JGS Lanka Co. All Rights Reserved.*
