@@ -1,73 +1,209 @@
-JGS Web IDE Engine 26.1v
-A Professional Desktop Software Development Tool
-Designed & Developed by JGS Lanka Co. | H. M Janitha Athma Herath
+# JGS Web IDE Engine 26.1v
 
-📌 1. Introduction
-JGS Web IDE Engine is a professional framework designed to run, preview, and build modern Web Applications (HTML, CSS, JavaScript) as native Windows Desktop Software (.EXE). It features a built-in embedded browser, live preview, developer console, and a native .EXE packaging engine.
+### A Professional Desktop Software Development Tool
 
-⚙️ 2. System Requirements
-To run the IDE Engine efficiently, the host machine must meet the following requirements:
+**Designed & Developed by JGS Lanka Co.**
+**Author:** H. M Janitha Athma Herath
 
-Operating System: Windows 10 or Windows 11 (64-bit)
+---
 
-Java Environment: JDK 17 or higher (Essential for the jpackage build tool).
+# 📌 Introduction
 
-RAM: 4GB Minimum (8GB Recommended for large builds).
+**JGS Web IDE Engine** is a powerful development framework that allows developers to run, preview, and convert modern **Web Applications (HTML, CSS, JavaScript)** into **native Windows Desktop Applications (.EXE)**.
 
-Storage: 500MB Free Space.
+The system includes:
 
-📂 3. Folder Structure
-Ensure your project directory looks like this before launching:
+* Embedded Browser Engine
+* Live Web Preview
+* Developer Console
+* Native Windows `.EXE` Packaging System
 
-Plaintext
+This tool is designed for developers who want to convert web-based software into desktop applications easily.
+
+---
+
+# ⚙️ System Requirements
+
+To run **JGS Web IDE Engine**, your computer must meet the following requirements.
+
+| Requirement      | Details                          |
+| ---------------- | -------------------------------- |
+| Operating System | Windows 10 / Windows 11 (64-bit) |
+| Java Environment | JDK 17 or Higher                 |
+| RAM              | 4GB Minimum (8GB Recommended)    |
+| Storage          | Minimum 500MB Free Space         |
+
+⚠ **Note:** JDK 17 or higher is required for the `jpackage` build tool.
+
+---
+
+# 📂 Project Folder Structure
+
+Before running the IDE, ensure your project directory structure looks like this:
+
+```
 JGS_Web_IDE/
 │
 ├── JGS_Launcher.bat        <-- Double click this to Auto-Check & Run
-├── src/                    <-- Contains the Java Source Code and file
-├── lib/                    <-- Contains JavaFX SDK .jar files
+├── src/                    <-- Java Source Code
+├── lib/                    <-- JavaFX SDK .jar files
 ├── Data/                   <-- YOUR WEB APP GOES HERE
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+│
 ├── icon/
-│   ├── app.icon            <-- Custom Application Icon
-│   └── splash.png          <-- Splash Screen Image (800x450px)
-└── Output/                 <-- Generated .EXE files will appear here
-🚀 4. How to Use the IDE
-Launch the Software: Double-click JGS_Launcher.bat. The engine will automatically verify system requirements, repair missing directories, and launch the application.
+│   ├── app.icon            <-- Application Icon
+│   └── splash.png          <-- Splash Screen (800x450px)
+│
+└── Output/                 <-- Generated .EXE files appear here
+```
 
-Add Your Code: Navigate to the Data/ folder. Write or paste your HTML, CSS, and JS files here. index.html is the mandatory entry point.
+---
 
-Live Preview: Inside the IDE, open the Live Preview tab and click ▶ Run Preview to see your changes in real-time.
+# 🚀 How to Use the IDE
 
-Customize Settings: Go to the Settings tab. Here you can change:
+### 1️⃣ Launch the IDE
 
-Application Name
+Double-click:
 
-Window Dimensions (Width/Height)
+```
+JGS_Launcher.bat
+```
 
-Theme (Premium Dark / Light)
+The engine will automatically:
 
-Fullscreen & Resize permissions
+* Check system requirements
+* Create missing folders
+* Start the IDE
 
-🛠️ 5. Building the .EXE Application
-Once your web app is completely tested and ready to be converted into Desktop Software:
+---
 
-Ensure you have added your custom app.icon and splash.png to the icon/ folder.
+### 2️⃣ Add Your Web Application
 
-Navigate to the Build Panel tab inside the IDE.
+Navigate to the **Data/** folder and place your files.
 
-Click the ⚙ BUILD .EXE NOW button.
+Example:
 
-The system will invoke native compilers, embed the Java Runtime, attach your icons, and generate a standalone Windows executable.
+```
+index.html
+style.css
+script.js
+```
 
-Wait for the Success notification. Your final software will be located in the Output/ folder.
+⚠ **Important:**
+`index.html` must exist because it is the main entry point.
 
-📞 6. Support & Contact
-Company: JGS Lanka Co.
+---
 
-Website: Janith Graphic Studio (Search on Google)
+### 3️⃣ Live Preview
 
-Bug Reports (WhatsApp): +94702001859
+Inside the IDE:
 
-Updates: Click the Check Update button in the IDE's About Section.
+1. Open **Live Preview Tab**
+2. Click **▶ Run Preview**
+
+You will see your web application running instantly inside the IDE.
+
+---
+
+# 🎨 Customize Application Settings
+
+Inside the **Settings Panel** you can configure:
+
+* Application Name
+* Window Width & Height
+* Theme (Premium Dark / Light)
+* Fullscreen Mode
+* Window Resize Permissions
+
+---
+
+# 🛠️ Building the Windows .EXE
+
+Once your project is ready:
+
+1️⃣ Add your files to the **icon/** folder:
+
+```
+app.icon
+splash.png
+```
+
+2️⃣ Open **Build Panel**
+
+3️⃣ Click:
+
+```
+⚙ BUILD .EXE NOW
+```
+
+The system will automatically:
+
+* Compile Java runtime
+* Package your web application
+* Attach icon & splash screen
+* Generate a standalone `.EXE` application
+
+⏳ Wait for the **Build Success Notification**
+
+Your software will appear in:
+
+```
+Output/
+```
+
+---
+
+# 📦 Output
+
+The final executable file will be generated in:
+
+```
+Output/
+```
+
+You can distribute this `.EXE` like any normal Windows software.
+
+No additional installation required.
+
+---
+
+# 📞 Support & Contact
+
+**Company:** JGS Lanka Co.
+
+**Developer:** H. M Janitha Athma Herath
+
+**Website:**
+Search **Janith Graphic Studio** on Google
+
+**Bug Reports (WhatsApp):**
++94 70 200 1859
+
+---
+
+# 🔄 Updates
+
+To check for new versions:
+
+Open the **About Section** in the IDE and click:
+
+```
+Check Update
+```
+
+---
+
+# ⭐ Project Status
+
+✔ Active Development
+✔ Stable Version 26.1v
+✔ Desktop Packaging Engine Included
+
+---
+
+# 📜 License
+
+© 2026 JGS Lanka Co.
+All Rights Reserved.
